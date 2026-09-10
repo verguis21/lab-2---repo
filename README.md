@@ -7,9 +7,10 @@ API
     -Minimal API
         Debe retornar un mensaje incluyendo mi nombre
     - Docker
--docker run -d --rm -p 3000:3000 nmatsui/hello-world-api. 7ff11e1db7c2
-great_benz
-docker run -d --rm -p 3001:3000 nmatsui/hello-world-api hungry_robinson
+-docker run -d --rm -p 3000:3000 nmatsui/hello-world-api. 7ff11e1db7c2 great_benz
+docker run -d --rm -p 3001:3000 nmatsui/hello-world-api  ab712e9fd260  hungry_robinson
+docker run -d --rm -p 3002:3000 nmatsui/hello-world-api  4183e3e2c579  stoic_lehmann
+docker run -d --rm -p 3003:3000 nmatsui/hello-world-api  af89d66a6384  determined_euclid
 
 BD
     - PostgreSQL
@@ -19,7 +20,7 @@ postgres
 # Indicaiones 
 
 
-
+i
 ## Comandos
 
 ``` bash
