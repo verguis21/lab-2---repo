@@ -33,4 +33,15 @@ MESSAGE=<Colocar nombre>
 # Creditos
 -Vegaray Colonia, José Francisco
 
-#ETC
+# PREGUNTAS
+# TIPOS DE REDES
+- **bridge:** Es la redpor defecto , funciona creando una red virtual privada interna en el host
+- **HOST:** Elimina el aislamiento de la red 
+- **OVERLAY:** Utilizada para conectar multiples dominios de docker entre si 
+- **MACVLAN:** Asigna una direccion MAC unica al contenedor
+- **NONE:** Deshabilita toda la conexion de red, aislando el contenedor por completo
+
+# TIPOS DE VOLUMEN 
+- **NAMED VOLUMES:** Son gestionados íntegramente por Docker (se almacenan en una ruta protegida).
+- **BIND MOUNTS:** Mapean una ruta absoluta especifica de la maquina anfitriona directamente dentro del contenedor.
+- **TMPFS MOUNTS:** Almacena los datos de forma temporal unicamente en la memoria RAM del host.
