@@ -17,12 +17,21 @@ BD
 -$ docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -d
 postgres
 
-# Indicaiones 
+# Indicaciones 
 
 ## Comandos
 
 ``` bash
 docker compose up -d
+```
+``` bash
+docker compose down
+```
+``` bash
+docker logs
+```
+``` bash
+curl.exe -i http://localhost:3003/     
 ```
 ## Configuracion del entorno 
 
