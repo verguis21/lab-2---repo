@@ -11,7 +11,6 @@ API
 - docker run -d --rm -p 3001:3000 nmatsui/hello-world-api  ab712e9fd260  hungry_robinson
 - docker run -d --rm -p 3002:3000 nmatsui/hello-world-api  4183e3e2c579  stoic_lehmann
 
-
 BD
     - PostgreSQL
 -$ docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -d
@@ -36,7 +35,7 @@ curl.exe -i http://localhost:3003/
 ## Configuracion del entorno 
 
 ```
-MESSAGE=<Colocar nombre>
+MESSAGE=<Jose Vergaray docker compose , por fin salio >
 ```
 
 # Creditos
